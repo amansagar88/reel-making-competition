@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reel Making Competition</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #ff9a9e, #fad0c4);
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        .container {
+            padding: 2rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .card {
+            background: linear-gradient(to bottom, #e3ffe7, #d9e7ff);
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 1rem;
+            padding: 1rem;
+            transition: transform 0.3s ease;
+            width: 300px;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card h2 {
+            color: #333;
+        }
+        .button {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 0.5rem 1rem;
+            margin: 0.5rem 0;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        .button:hover {
+            background-color: #45a049;
+            transform: scale(1.1);
+        }
+        .animated-text {
+            font-size: 1.5rem;
+            color: #4CAF50;
+            animation: textAnimation 3s infinite;
+        }
+
+        .button_container{
+            padding-top: 0;
+            padding-bottom: 2rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        @keyframes textAnimation {
+            0%, 100% { color: #4CAF50; }
+            50% { color: #ff6347; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="animated-text">Reel Making Competition</h1>
+    </header>
+    <div class="container">
+        <div class="card">
+            <h2>Event Details</h2>
+            <p><strong>Date:</strong> November 15, 2024</p>
+            <p><strong>Venue:</strong>Atma Ram Sanatan Dharma College (Ground) </p>
+        </div>
+        <div class="card">
+            <h2>Prize Money</h2>
+            <p><strong>1st Place:</strong> ₹50,000</p>
+            <p><strong>2nd Place:</strong> ₹25,000</p>
+            <p><strong>3rd Place:</strong> ₹10,000</p>
+        </div>
+        <div class="card">
+            <h2>Eligibility</h2>
+            <p>Open to all aspiring filmmakers and content creators aged 18 and above. Solo participants and teams (up to 4 members) are welcome.</p>
+        </div>
+        <div class="card">
+            <h2>Guidelines</h2>
+            <p>Duration of the reel: 60 seconds maximum.</p>
+            <p>Theme: "A Day in the Life"</p>
+            <p>Register yourself by November 10, 2024</p>
+        </div>
+        <div class="card">
+            <h2>How to Participate</h2>
+            <p>1. Register online using the form by clicking on the "Register Here" Button.</p>
+            <p>2. Create a sample reel based on the given theme.</p>
+            <p>3. Submit your reel while registering.</p>
+        </div>
+        <div class="card">
+            <h2>Best of Luck</h2>
+            <p>Show us your skills!</p>
+            <p>Best regards form Tach-A-Thon team</p>
+            <p> Computer Science Society</p>
+            <p>Atma Ram Sanatan Dharma College</p>
+        </div>
+    </div>
+    <div class="button_container">
+        <a href="#" class="button">Register Here</a>
+    </div>
+</body>
+</html>
